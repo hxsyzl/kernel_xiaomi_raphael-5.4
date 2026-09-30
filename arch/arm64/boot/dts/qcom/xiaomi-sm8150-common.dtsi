@@ -21,6 +21,10 @@
 	status = "ok";
 };
 
+&npu_npu_ddr_bw {
+	qcom,active-only;
+};
+
 &vendor {
 	bluetooth: bt_wcn3990 {
 		compatible = "qcom,wcn3990";
